@@ -5,7 +5,7 @@ import { Client } from ".";
 config();
 
 // To run this example, you need to have a local Aprox server running and an existing account.
-// Copy and paste `.env.example` to `.env` and edit accordingly.
+// Copy and paste `.env.example` to `.env.example` and edit accordingly.
 
 async function user() {
     const client = new Client({
