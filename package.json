@@ -4,7 +4,10 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "module": "esm/index.js",
-  "repository": "https://github.com/MyNameIsKiyoshi/aprox.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AproxApp/Aprox.js.git"
+  },
   "author": "MyNameIsKiyoshi",
   "license": "MIT",
   "dependencies": {
@@ -89,6 +92,13 @@
     "dist",
     "esm"
   ],
-  "description": "Library for interacting with the Revolt API.",
-  "packageManager": "yarn@3.2.3"
+  "description": "Library for interacting with the Aprox API.",
+  "packageManager": "yarn@3.2.3",
+  "bugs": {
+    "url": "https://github.com/AproxApp/Aprox.js/issues"
+  },
+  "homepage": "https://github.com/AproxApp/Aprox.js#readme",
+  "directories": {
+    "doc": "docs"
+  }
 }
