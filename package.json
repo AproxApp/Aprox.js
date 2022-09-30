@@ -1,5 +1,5 @@
 {
-  "name": "@AproxApp/aprox.js",
+  "name": "@aprox-api/aprox.js",
   "version": "1.0.5",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -7,9 +7,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AproxApp/Aprox.js.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/MyNameIsKiyoshi"
   },
   "author": "MyNameIsKiyoshi",
   "license": "MIT",
