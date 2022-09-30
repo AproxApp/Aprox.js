@@ -1,5 +1,5 @@
 {
-  "name": "aprox.js",
+  "name": "@aprox-api/aprox.js",
   "version": "1.0.1",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
