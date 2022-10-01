@@ -13,6 +13,7 @@
     "ansi-regex": "^5.0.1",
     "ansi-styles": "^3.2.1",
     "aprox-api": "^1.0.1",
+    "aprox.js": "^1.0.5",
     "argparse": "^2.0.1",
     "array-union": "^2.1.0",
     "axios": "^0.21.4",
