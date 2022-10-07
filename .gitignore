@@ -1,6 +1,6 @@
 # build
 node_modules
-.env.example
+.env
 dist
 docs
 esm

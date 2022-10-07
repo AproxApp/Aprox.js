@@ -1,8 +1,13 @@
 {
   "name": "aprox.js",
-  "version": "1.0.5",
+  "version": "2.5.6",
   "description": "",
   "main": ".prettierrc.js",
+  "keywords": [
+    "Aprox",
+    "Chat",
+    "MyNameIsKiyoshi"
+  ],
   "directories": {
     "doc": "docs"
   },
@@ -12,7 +17,7 @@
     "ajv": "^6.12.6",
     "ansi-regex": "^5.0.1",
     "ansi-styles": "^3.2.1",
-    "aprox-api": "^1.0.1",
+    "aprox-api": "^1.0.2",
     "aprox.js": "^1.0.5",
     "argparse": "^2.0.1",
     "array-union": "^2.1.0",

@@ -174,6 +174,16 @@
 "@humanwhocodes/object-schema@^1.2.1":
   "version" "1.2.1"
 
+"@insertish/oapi@^0.1.18":
+  "integrity" "sha512-LZLUk3WmzUjCM0quensexvQx/Kk1MpFBtCLJRnRrPOiaFT37JpOmWUFlrdu0sPS6B9wi2edEBeLcsnIiq85WMA=="
+  "resolved" "https://registry.npmjs.org/@insertish/oapi/-/oapi-0.1.18.tgz"
+  "version" "0.1.18"
+  dependencies:
+    "typescript" "^4.6.2"
+  optionalDependencies:
+    "axios" "^0.26.1"
+    "openapi-typescript" "^5.2.0"
+
 "@jridgewell/gen-mapping@^0.1.0":
   "version" "0.1.1"
   dependencies:
@@ -244,8 +254,15 @@
   dependencies:
     "color-convert" "^2.0.1"
 
-"aprox-api@^1.0.1":
-  "version" "1.0.1"
+"aprox-api@^1.0.1", "aprox-api@^1.0.2":
+  "integrity" "sha512-9xbOMBti6c3TwgxzVzLyFUfdUa/KxcMGpZrUY6kstBmeXQBNyJ36dTT2lkrT6476SwC0EMql8im4FP4i6NuNtQ=="
+  "resolved" "https://registry.npmjs.org/aprox-api/-/aprox-api-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "@insertish/oapi" "^0.1.18"
+    "aprox-api" "^1.0.1"
+    "axios" "^0.26.1"
+    "lodash.defaultsdeep" "^4.6.1"
 
 "aprox.js@^1.0.5":
   "integrity" "sha512-X9/RoaP53tvlZssDNaciSXUuKI7XNQQ5pgf57bIzYHkdKF8WCV0rLp8C2mHzjrg9L5QGvZYbh7xKlkdaLgxgZQ=="
@@ -434,6 +451,13 @@
   dependencies:
     "follow-redirects" "^1.14.0"
 
+"axios@^0.26.1":
+  "integrity" "sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-0.26.1.tgz"
+  "version" "0.26.1"
+  dependencies:
+    "follow-redirects" "^1.14.8"
+
 "balanced-match@^1.0.0", "balanced-match@^1.0.2":
   "version" "1.0.2"
 
@@ -455,6 +479,13 @@
     "electron-to-chromium" "^1.4.251"
     "node-releases" "^2.0.6"
     "update-browserslist-db" "^1.0.9"
+
+"busboy@^1.6.0":
+  "integrity" "sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA=="
+  "resolved" "https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz"
+  "version" "1.6.0"
+  dependencies:
+    "streamsearch" "^1.1.0"
 
 "callsites@^3.0.0", "callsites@^3.1.0":
   "version" "3.1.0"
@@ -699,7 +730,7 @@
 "flatted@^3.1.0", "flatted@^3.2.7":
   "version" "3.2.7"
 
-"follow-redirects@^1.14.0", "follow-redirects@^1.15.2":
+"follow-redirects@^1.14.0", "follow-redirects@^1.14.8", "follow-redirects@^1.15.2":
   "version" "1.15.2"
 
 "from@^0.1.7", "from@~0":
@@ -739,6 +770,11 @@
   dependencies:
     "type-fest" "^0.20.2"
 
+"globalyzer@0.1.0":
+  "integrity" "sha512-40oNTM9UfG6aBmuKxk/giHn5nQ8RVz/SS4Ir6zgzOv9/qC3kKZ9v4etGTcJbEl/NyVQH7FGU7d+X1egr57Md2Q=="
+  "resolved" "https://registry.npmjs.org/globalyzer/-/globalyzer-0.1.0.tgz"
+  "version" "0.1.0"
+
 "globby@^11.1.0":
   "version" "11.1.0"
   dependencies:
@@ -748,6 +784,11 @@
     "ignore" "^5.2.0"
     "merge2" "^1.4.1"
     "slash" "^3.0.0"
+
+"globrex@^0.1.2":
+  "integrity" "sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg=="
+  "resolved" "https://registry.npmjs.org/globrex/-/globrex-0.1.2.tgz"
+  "version" "0.1.2"
 
 "grapheme-splitter@^1.0.4":
   "version" "1.0.4"
@@ -893,6 +934,11 @@
     "braces" "^3.0.2"
     "picomatch" "^2.3.1"
 
+"mime@^3.0.0":
+  "integrity" "sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A=="
+  "resolved" "https://registry.npmjs.org/mime/-/mime-3.0.0.tgz"
+  "version" "3.0.0"
+
 "minimatch@^3.0.0", "minimatch@^3.0.4", "minimatch@^3.1.1", "minimatch@^3.1.2":
   "version" "3.1.2"
   dependencies:
@@ -928,6 +974,18 @@
   "version" "1.4.0"
   dependencies:
     "wrappy" "1"
+
+"openapi-typescript@^5.2.0":
+  "integrity" "sha512-AGB2QiZPz4rE7zIwV3dRHtoUC/CWHhUjuzGXvtmMQN2AFV8xCTLKcZUHLcdPQmt/83i22nRE7+TxXOXkK+gf4Q=="
+  "resolved" "https://registry.npmjs.org/openapi-typescript/-/openapi-typescript-5.4.1.tgz"
+  "version" "5.4.1"
+  dependencies:
+    "js-yaml" "^4.1.0"
+    "mime" "^3.0.0"
+    "prettier" "^2.6.2"
+    "tiny-glob" "^0.2.9"
+    "undici" "^5.4.0"
+    "yargs-parser" "^21.0.1"
 
 "optionator@^0.9.1":
   "version" "0.9.1"
@@ -980,7 +1038,7 @@
 "prelude-ls@^1.2.1":
   "version" "1.2.1"
 
-"prettier@^2.7.1":
+"prettier@^2.6.2", "prettier@^2.7.1":
   "version" "2.7.1"
 
 "progress@^2.0.3":
@@ -1053,6 +1111,11 @@
   dependencies:
     "duplexer" "~0.1.1"
 
+"streamsearch@^1.1.0":
+  "integrity" "sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg=="
+  "resolved" "https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz"
+  "version" "1.1.0"
+
 "string-argv@^0.1.1", "string-argv@^0.1.2":
   "version" "0.1.2"
 
@@ -1079,6 +1142,14 @@
 
 "through@^2.3.8", "through@~2.3", "through@~2.3.1", "through@2":
   "version" "2.3.8"
+
+"tiny-glob@^0.2.9":
+  "integrity" "sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg=="
+  "resolved" "https://registry.npmjs.org/tiny-glob/-/tiny-glob-0.2.9.tgz"
+  "version" "0.2.9"
+  dependencies:
+    "globalyzer" "0.1.0"
+    "globrex" "^0.1.2"
 
 "to-fast-properties@^2.0.0":
   "version" "2.0.0"
@@ -1134,11 +1205,23 @@
 "typescript@*", "typescript@^4.4.4", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", "typescript@4.0.x || 4.1.x || 4.2.x || 4.3.x || 4.4.x":
   "version" "4.4.4"
 
+"typescript@^4.6.2":
+  "integrity" "sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.8.4.tgz"
+  "version" "4.8.4"
+
 "uglify-js@^3.1.4", "uglify-js@^3.17.2":
   "version" "3.17.2"
 
 "ulid@^2.3.0":
   "version" "2.3.0"
+
+"undici@^5.4.0":
+  "integrity" "sha512-oWjWJHzFet0Ow4YZBkyiJwiK5vWqEYoH7BINzJAJOLedZ++JpAlCbUktW2GQ2DS2FpKmxD/JMtWUUWl1BtghGw=="
+  "resolved" "https://registry.npmjs.org/undici/-/undici-5.11.0.tgz"
+  "version" "5.11.0"
+  dependencies:
+    "busboy" "^1.6.0"
 
 "update-browserslist-db@^1.0.9":
   "version" "1.0.9"
@@ -1185,6 +1268,11 @@
 
 "yallist@^4.0.0":
   "version" "4.0.0"
+
+"yargs-parser@^21.0.1":
+  "integrity" "sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw=="
+  "resolved" "https://registry.npmjs.org/yargs-parser/-/yargs-parser-21.1.1.tgz"
+  "version" "21.1.1"
 
 "yarn@^1.22.19":
   "integrity" "sha512-/0V5q0WbslqnwP91tirOvldvYISzaqhClxzyUKXYxs07yUILIs5jx/k6CFe8bvKSkds5w+eiOqta39Wk3WxdcQ=="
